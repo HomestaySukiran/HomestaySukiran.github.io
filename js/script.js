@@ -3,9 +3,9 @@ const seconds = document.querySelector(".seconds .number"),
   hours = document.querySelector(".hours .number"),
   days = document.querySelector(".days .number");
 
-let secValue = 12,
-  minValue = 2,
-  hourValue = 4,
+let secValue = 60,
+  minValue = 60,
+  hourValue = 2,
   dayValue = 3;
 
 const timeFunction = setInterval(() => {
